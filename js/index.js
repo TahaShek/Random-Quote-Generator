@@ -22,3 +22,18 @@
 //     person.innerText= qoutes[random].Person
     
 // })
+let openModal=document.querySelector('.button-modal')
+
+let ShowModal=()=>{
+    let MODAL=document.querySelector('.modal')
+    MODAL.style.display='block'
+}
+openModal.addEventListener('click',ShowModal)
+
+let close=()=>{
+    let MODAL=document.querySelector('.modal')
+    MODAL.style.display='none'
+
+
+}
+
