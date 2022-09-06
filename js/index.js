@@ -30,10 +30,16 @@ let ShowModal=()=>{
 }
 openModal.addEventListener('click',ShowModal)
 
-let close=()=>{
+let closeModal=document.querySelector('.close-modal')
+closeModal.addEventListener('click',()=>{
     let MODAL=document.querySelector('.modal')
     MODAL.style.display='none'
+})
 
+window.addEventListener('click',(e)=>{
+    if(e.target===MODAL){
+    MODAL.style.display='none'
 
-}
+    }
+})
 
