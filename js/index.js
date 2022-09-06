@@ -18,5 +18,7 @@ let qoutes=[
 ]
 btn.addEventListener('click',function(){
     let random=Math.floor(Math.random()*qoutes.length)
-    console.log(random)
+    qoute.innerText= qoutes[random].Qoute
+    person.innerText= qoutes[random].Person
+    
 })
