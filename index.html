@@ -7,11 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+<link rel="stylesheet" href="./style/style.css">
     <title>Generator</title>
   </head>
   <body>
-    <div class="container my-5">
+    <!-- <div class="container my-5">
      <div class="row">
         <div class="offset-md-2 col-md-6 centerd">
             <h4 class="">JavaScipt Qoute Generator</h4>
@@ -22,8 +22,45 @@
         </div>
      </div>
     </div>
+   -->
 
+
+   <button id="button-modal" class="button-modal">
+    <div class="icon">
+      <svg height="32" width="32" stroke="currentColor" fill="none" stroke-width="1.5" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5"></path>
+        <path d="M11 11.5v-2a1.5 1.5 0 0 1 3 0v2.5"></path>
+        <path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5"></path>
+        <path d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7l-.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"></path>
+        <path d="M5 3l-1 -1"></path>
+        <path d="M4 7h-1"></path>
+        <path d="M14 3l1 -1"></path>
+        <path d="M15 6h1"></path>
+      </svg>
+    </div>
+    <div class="text">
+      <h2>Open Modal</h2>
+    </div>
+  </button>
   
+  <div id="modal" class="modal">
+    <div class="_main">
+      <div class="_container">
+        <div class="_title">
+          <h3>Modal Title</h3>
+        </div>
+        <hr/>
+        <div class="_content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a dignissim urna. Suspendisse non leo in risus efficitur auctor id vel est. Donec dignissim urna congue, gravida diam ac, consequat leo. Sed a accumsan diam. Donec luctus vel odio at aliquam. Quisque sit amet lectus sed ex scelerisque mattis.</p>
+        </div>
+        <div class="_footer">
+          <hr/>
+          <button id="close-modal" class="close-modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
     
     
 
