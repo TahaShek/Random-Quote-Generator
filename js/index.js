@@ -37,6 +37,8 @@ closeModal.addEventListener('click',()=>{
 })
 
 window.addEventListener('click',(e)=>{
+    let MODAL=document.querySelector('.modal')
+
     if(e.target===MODAL){
     MODAL.style.display='none'
 
